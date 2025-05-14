@@ -51,3 +51,96 @@ O provedor gerencia atualizações de software e segurança, reduzindo a carga d
 8. Sustentabilidade
 Otimização de recursos compartilhados reduz o consumo de energia e o impacto ambiental.
 
+## Resumo 03 – Tipos de Serviço em Nuvem e Máquinas Virtuais
+Nesta aula, aprendemos sobre os modelos de serviço da computação em nuvem: IaaS, PaaS e SaaS, além de explorarmos o uso prático das Máquinas Virtuais no Azure. Esses conceitos são fundamentais para entender como consumir recursos na nuvem de forma eficiente e escalável.
+
+### Tipos de Serviço em Nuvem
+1. IaaS – Infrastructure as a Service
+Oferece recursos essenciais de infraestrutura, como servidores, redes e armazenamento, entregues pela internet.
+Ideal para empresas que precisam de controle sobre o ambiente e preferem gerenciar seus próprios sistemas operacionais e aplicativos.
+
+Exemplos no Azure:
+
+- Virtual Machines
+
+- Azure Virtual Network
+
+- Azure Storage
+
+Vantagens:
+
+- Controle total sobre o sistema operacional
+
+- Escalabilidade sob demanda
+
+- Pagamento conforme o uso
+
+2. PaaS – Platform as a Service
+Fornece uma plataforma gerenciada para desenvolver, testar e implantar aplicações, sem se preocupar com infraestrutura subjacente.
+Indicado para desenvolvedores que desejam focar no código e na funcionalidade da aplicação.
+
+Exemplos no Azure:
+
+- Azure App Service
+
+- Azure SQL Database
+
+- Azure Functions
+
+Vantagens:
+
+- Redução da complexidade operacional
+
+- Atualizações automáticas da plataforma
+
+- Integração com ferramentas de desenvolvimento
+
+3. SaaS – Software as a Service
+Entrega software pronto para uso, acessado pela internet, sem necessidade de instalação local.
+Voltado para usuários finais que precisam de soluções práticas e acessíveis de qualquer lugar.
+
+Exemplos (Microsoft):
+
+- Microsoft 365 (Word, Excel, Outlook online)
+
+- Microsoft Teams
+
+- Dynamics 365
+
+Vantagens:
+
+- Uso imediato e fácil
+
+- Atualizações automáticas
+
+- Acesso remoto de qualquer dispositivo
+
+### Máquinas Virtuais (VMs) no Azure
+As Máquinas Virtuais são um dos principais recursos do modelo IaaS no Azure. Elas simulam computadores físicos, permitindo executar sistemas operacionais e aplicações em um ambiente isolado, configurável e seguro.
+
+Características:
+
+- Suporte a sistemas Windows e Linux
+
+- Configuração personalizada (CPU, memória, disco)
+
+- Acesso remoto via RDP ou SSH
+
+Usos comuns:
+
+- Ambientes de teste e desenvolvimento
+
+- Hospedagem de aplicativos legados
+
+- Execução de tarefas específicas com controle total
+
+Vantagens:
+
+- Alta flexibilidade e personalização
+
+- Facilidade de escalonamento e backup
+
+- Custo sob demanda
+
+
+
