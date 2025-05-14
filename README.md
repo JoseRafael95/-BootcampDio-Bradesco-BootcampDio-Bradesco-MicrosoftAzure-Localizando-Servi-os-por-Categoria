@@ -142,5 +142,65 @@ Vantagens:
 
 - Custo sob demanda
 
+##  Resumo 04 – Construindo Arquiteturas no Azure
+
+Nesta aula, aprendemos como projetar arquiteturas no Azure considerando fatores como **localização dos recursos**, **conformidade com legislações**, **replicação de dados** e a **organização através de grupos de recursos**.
+
+
+
+###  Configuração de Região
+
+Ao criar qualquer recurso no Azure, é necessário escolher a **região (region)** onde ele será implantado, como "Brazil South", "East US", entre outras.
+
+- **Importância da Região:**
+  - Afeta **latência** (tempo de resposta).
+  - Impacta a **disponibilidade** e os **custos**.
+  - Tem relação direta com a **conformidade legal**.
+
+>  **Exemplo:** Ao armazenar dados de cidadãos brasileiros, deve-se priorizar regiões dentro do Brasil para atender à LGPD (Lei Geral de Proteção de Dados).
+
+
+
+###  Conformidade com LGPD
+
+A LGPD exige que determinados dados **não sejam transferidos para fora do país**, salvo com o devido consentimento ou mecanismos de proteção adequados.
+
+- O Azure permite escolher **regiões específicas** para manter os dados localizados.
+- Importante verificar os requisitos legais antes de escolher a localização dos recursos.
+
+🔗 **Dica:** Consulte o [Microsoft Data Centers](https://infrastructuremap.microsoft.com/) para ver onde estão os datacenters da Microsoft no mundo.
+
+
+
+###  Replicação de Dados
+
+O Azure oferece replicação de dados para garantir **alta disponibilidade** e **resiliência**. Isso significa que os dados podem ser duplicados em outras regiões ou zonas.
+
+- **Exemplo:** Um armazenamento pode ser replicado localmente (LRS), entre zonas (ZRS) ou entre regiões (GRS).
+- A replicação aumenta a proteção contra falhas, mas deve ser usada com atenção a leis como a LGPD.
+
+
+
+###  Grupo de Recursos (Resource Group)
+
+Um **grupo de recursos** é um container lógico que agrupa serviços relacionados no Azure.
+
+- Serve para **organizar**, **gerenciar** e **controlar** os recursos.
+- Todos os recursos de um grupo costumam compartilhar o mesmo ciclo de vida (criação, atualização, exclusão).
+- Permite aplicar **permissões e políticas de segurança** em conjunto.
+
+**Boas práticas:**
+- Nomear grupos de forma clara (ex: `rg-appfinanceira-brazilsouth`).
+- Separar recursos de ambientes diferentes (produção, testes, etc.).
+- Escolher a mesma região sempre que possível para minimizar latência.
+
+
+
+
+
+
+
+
+
 
 
