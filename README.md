@@ -194,6 +194,88 @@ Um **grupo de recursos** é um container lógico que agrupa serviços relacionad
 - Separar recursos de ambientes diferentes (produção, testes, etc.).
 - Escolher a mesma região sempre que possível para minimizar latência.
 
+## Resumo 05 – Configurando Recursos e Dimensionamentos em Máquinas Virtuais no Azure
+Nesta aula, aprendemos como configurar recursos e realizar o dimensionamento adequado ao criar Máquinas Virtuais (VMs) no Microsoft Azure, garantindo eficiência, desempenho e controle de custos.
+
+### Escolhendo a Imagem da VM
+A imagem (image) define o sistema operacional e software base da VM.
+
+Exemplos:
+
+- Windows Server 2022
+
+- Ubuntu 20.04 LTS
+
+- Red Hat, SUSE, Debian, entre outros
+
+É possível usar imagens fornecidas pela Microsoft, por parceiros ou criar imagens personalizadas.
+
+### Tamanho da Máquina Virtual (SKU)
+O tamanho (size) determina a quantidade de CPU, memória RAM, armazenamento temporário e capacidade de rede da VM.
+
+### Categorias:
+
+- B-series: custo-benefício, ideal para cargas intermitentes.
+
+- D-series: uso geral, bom equilíbrio entre CPU e memória.
+
+- E-series: otimizadas para memória.
+
+- F-series: otimizadas para computação.
+
+- N-series: com GPU, ideais para IA e processamento gráfico.
+
+🔧 Dica: Escolher o tamanho adequado evita desperdício de recursos e reduz custos.
+
+### Configuração de Disco
+Ao criar uma VM, você configura:
+
+- Disco do sistema operacional (OS Disk): normalmente SSD.
+
+- Discos de dados adicionais (Data Disks): usados para armazenar arquivos e bases de dados.
+
+Tipos de disco:
+
+- HDD padrão
+
+- SSD padrão
+
+- SSD premium (mais desempenho)
+
+### Opções de Redundância
+Você pode configurar a redundância de dados, como:
+
+- Zonas de disponibilidade (Availability Zones): distribuem a VM em diferentes datacenters da mesma região.
+
+- Conjuntos de disponibilidade (Availability Sets): aumentam a resiliência ao dividir VMs em diferentes racks físicos.
+
+###  Configurações Adicionais
+- Nome da VM e grupo de recursos
+
+- Região de implantação
+
+- Rede virtual e subnet
+
+- Endereço IP público ou privado
+
+- Usuário e senha/chave SSH para acesso
+
+### Dimensionamento Vertical e Horizontal
+Escalonamento vertical: aumentar ou reduzir CPU/RAM de uma VM existente.
+
+Escalonamento horizontal: adicionar ou remover instâncias (escala automática).
+
+A funcionalidade de scale sets do Azure facilita o escalonamento horizontal automático.
+
+### Boas Práticas
+- Escolha a VM com base na carga de trabalho.
+
+- Use monitoramento para ajustar recursos conforme o uso real.
+
+- Prefira imagens otimizadas e mantenha o sistema atualizado.
+
+- Utilize tags para organização e controle de custos.
+
 
 
 
