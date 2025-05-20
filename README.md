@@ -276,6 +276,63 @@ A funcionalidade de scale sets do Azure facilita o escalonamento horizontal auto
 
 - Utilize tags para organização e controle de custos.
 
+# Resumo 06 – Ferramentas de IA no Azure: Análise de Linguagem e Speech Studio
+Nesta aula, exploramos serviços de IA no Azure, com foco em processamento de linguagem natural (NLP) e conversão de fala em texto, utilizando o Language Studio e o Speech Studio.
+
+## 1. Language Studio: Análise de Linguagem
+O Language Studio é uma ferramenta para criar soluções de NLP sem código, com modelos pré-treinados ou personalizados.
+
+### Funcionalidades Principais:
+
+- Análise de Sentimento: Identifica emoções (positivo, negativo, neutro) em textos.
+
+- Reconhecimento de Entidades: Extrai informações como nomes, datas, locais e termos específicos.
+
+- Resumo Automático: Gera versões concisas de textos longos.
+
+- Tradução: Suporte a múltiplos idiomas.
+
+- Análise de Linguagem Coloquial: Identifica gírias e expressões informais.
+
+### Casos de Uso:
+
+- Chatbots com respostas contextualizadas.
+
+- Análise de feedback de clientes.
+
+- Extração de dados de documentos.
+
+## 2. Speech Studio: Conversão de Fala em Texto
+O Speech Studio oferece recursos de speech-to-text (STT) e text-to-speech (TTS), com modelos personalizáveis.
+
+### Funcionalidades:
+
+- Transcrição em Tempo Real: Converte áudio em texto (ex: reuniões, chamadas).
+
+- Síntese de Voz (TTS): Transforma texto em voz natural, com vozes personalizáveis.
+
+- Reconhecimento de Locutor: Identifica falantes diferentes em um áudio.
+
+### Configuração Básica:
+
+- Criar um recurso Speech no Azure.
+
+- Acessar o Speech Studio e selecionar o modelo desejado (pré-treinado ou personalizado).
+
+- Testar com arquivos de áudio ou microfone.
+
+### Custos:
+
+- Cobrança por minutos processados (varia por região e tipo de modelo).
+
+- Camada gratuita disponível para testes (limite de 5h/mês).
+
+## 3. Comparação: Quando Usar Cada Serviço
+Serviço	Melhor Para	Exemplo
+- Language Studio	Textos escritos (documentos, chats, e-mails).	Análise de reviews de produtos.
+- Speech Studio	Áudios (chamadas, vídeos, comandos de voz).	Transcrição de atendimento ao cliente.
+
+
 
 
 
