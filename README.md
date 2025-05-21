@@ -279,10 +279,10 @@ A funcionalidade de scale sets do Azure facilita o escalonamento horizontal auto
 # Resumo 06 – Ferramentas de IA no Azure: Análise de Linguagem e Speech Studio
 Nesta aula, exploramos serviços de IA no Azure, com foco em processamento de linguagem natural (NLP) e conversão de fala em texto, utilizando o Language Studio e o Speech Studio.
 
-## 1. Language Studio: Análise de Linguagem
+### 1. Language Studio: Análise de Linguagem
 O Language Studio é uma ferramenta para criar soluções de NLP sem código, com modelos pré-treinados ou personalizados.
 
-### Funcionalidades Principais:
+#### Funcionalidades Principais:
 
 - Análise de Sentimento: Identifica emoções (positivo, negativo, neutro) em textos.
 
@@ -294,7 +294,7 @@ O Language Studio é uma ferramenta para criar soluções de NLP sem código, co
 
 - Análise de Linguagem Coloquial: Identifica gírias e expressões informais.
 
-### Casos de Uso:
+#### Casos de Uso:
 
 - Chatbots com respostas contextualizadas.
 
@@ -302,10 +302,10 @@ O Language Studio é uma ferramenta para criar soluções de NLP sem código, co
 
 - Extração de dados de documentos.
 
-## 2. Speech Studio: Conversão de Fala em Texto
+### 2. Speech Studio: Conversão de Fala em Texto
 O Speech Studio oferece recursos de speech-to-text (STT) e text-to-speech (TTS), com modelos personalizáveis.
 
-### Funcionalidades:
+#### Funcionalidades:
 
 - Transcrição em Tempo Real: Converte áudio em texto (ex: reuniões, chamadas).
 
@@ -313,7 +313,7 @@ O Speech Studio oferece recursos de speech-to-text (STT) e text-to-speech (TTS),
 
 - Reconhecimento de Locutor: Identifica falantes diferentes em um áudio.
 
-### Configuração Básica:
+#### Configuração Básica:
 
 - Criar um recurso Speech no Azure.
 
@@ -321,16 +321,50 @@ O Speech Studio oferece recursos de speech-to-text (STT) e text-to-speech (TTS),
 
 - Testar com arquivos de áudio ou microfone.
 
-### Custos:
+#### Custos:
 
 - Cobrança por minutos processados (varia por região e tipo de modelo).
 
 - Camada gratuita disponível para testes (limite de 5h/mês).
 
-## 3. Comparação: Quando Usar Cada Serviço
+### 3. Comparação: Quando Usar Cada Serviço
 Serviço	Melhor Para	Exemplo
 - Language Studio	Textos escritos (documentos, chats, e-mails).	Análise de reviews de produtos.
 - Speech Studio	Áudios (chamadas, vídeos, comandos de voz).	Transcrição de atendimento ao cliente.
+
+
+## Resumo 07 – Soluções de Pesquisa Cognitiva e IA Search no Azure
+Nesta aula, exploramos como o Azure utiliza IA para aprimorar buscas e transformar dados não estruturados em informações acionáveis, com foco em Cognitive Search e enriquecimento de dados com IA.
+
+### 1. O que é Pesquisa Cognitiva (Cognitive Search)?
+É um serviço do Azure que combina buscas tradicionais com modelos de IA para extrair insights de dados não estruturados (documentos, imagens, áudios, etc.).
+
+#### Principais Funcionalidades:
+-> Indexação Inteligente
+
+- Extrai texto de PDFs, Word, imagens (OCR) e áudios (transcrição).
+
+- Identifica entidades (nomes, datas, locais) e relações entre dados.
+
+-> Enriquecimento com IA
+
+- Usa habilidades cognitivas (Cognitive Skills) para:
+
+- Reconhecimento de entidades (pessoas, empresas).
+
+- Detecção de idioma e sentimentos.
+
+- Análise de imagens (objetos, rostos, texto em imagens).
+
+-> Busca Semântica
+
+- Melhora resultados com relevância contextual (entende sinônimos e intenções).
+
+-> Integração com Outros Serviços Azure
+
+- Conecta com Blob Storage, Cosmos DB, SQL Database, etc.
+
+- Pode usar Custom Skills (funções personalizadas em Python ou C#).
 
 
 
