@@ -367,6 +367,32 @@ Nesta aula, exploramos como o Azure utiliza IA para aprimorar buscas e transform
 - Pode usar Custom Skills (funções personalizadas em Python ou C#).
 
 
+## Resumo 08 – IA Generativa no Azure: Copilot e OpenAI
+Nesta aula, exploramos os recursos de IA generativa no Azure, com foco no Azure OpenAI e nas soluções integradas com Microsoft Copilot. Vimos como esses serviços podem gerar texto, código, imagens e análises avançadas de forma automatizada.
+
+### 1. O que é IA Generativa?
+Tecnologia capaz de criar conteúdo novo (texto, código, imagens, áudio) com base em modelos treinados em grandes volumes de dados.
+
+#### Principais Aplicações:
+- Geração de texto (relatórios, e-mails, artigos).
+- Assistência em código (autocompletar, debugging).
+- Criação de imagens e designs.
+- Chatbots inteligentes (respostas contextualizadas).
+
+### 2. Azure OpenAI
+Serviço da Microsoft que disponibiliza os modelos da OpenAI (como GPT-4) dentro do Azure, com segurança, conformidade e integração a outros serviços.
+
+#### Principais Modelos Disponíveis:
+Modelo	Uso Principal
+- GPT-4	Geração e compreensão de texto avançada.
+- GPT-3.5	Versão mais rápida e econômica.
+- DALL·E	Geração de imagens a partir de texto.
+-Codex	Geração e autocompletar de código.
+Casos de Uso Comuns:
+  - Copilot para Desenvolvedores (GitHub Copilot) – sugere trechos de código.
+  - Chatbots corporativos – atendimento ao cliente com respostas naturais.
+  - Resumo automático de documentos – extrai insights de contratos e relatórios.
+
 
 
 
